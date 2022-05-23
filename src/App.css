@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+#body{
+  position:relative;
+}
+#logo{
+  position: absolute;
+  top: -10px;
+  left:10px;
+ width: 120px;
+ height: 100px;
+ object-fit: contain;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#search-box{
+  position: absolute;
+  top:20px;
+  left:140px;
+    width:30%;
+    height:30px;
+ 
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#go-btn{
+  position: absolute;
+  top: 20px;
+  left:620px;
+  height:35px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#container{
+  position: absolute;
+  top: 100px;
+  display:grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-gap: 20px 10px;
+  width:100%;
+  overflow-x: hidden;
+  padding: 75px;;
+  
 }
-
-.App-link {
-  color: #61dafb;
+#video{
+  
+  min-height: 250px;
+    height: 500px ;
+    width: 100% ;
+    cursor: pointer;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img{
+  height:300px;
+  width:auto;
+  background-size: contain;
+}
+.content{
+  height:200px;
+  font-size:12px;
+  font-weight:medium;
+  line-height:20px;
+}
+.link{
+  font-size:12px;
 }
