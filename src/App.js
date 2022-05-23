@@ -9,7 +9,7 @@ function App(){
 
   useEffect(()=>{
     
-    fetch("http://localhost:4025/get")
+    fetch("https://webscrappingyuvaraj.herokuapp.com/get")
       .then(res => res.json())
       .then(response => {
 
